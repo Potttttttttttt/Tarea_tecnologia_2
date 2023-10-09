@@ -5,6 +5,13 @@ h1 {
     color: #C4CACA;
     font: size 33px;
 }
+
+h3 {
+    color: #ffffff;
+    font-style: oblique;
+    margin-top: 35px;
+}
+
 .index-h1 {
     color: #C4CACA;
     font: size 20px;
@@ -31,22 +38,26 @@ table, th, td {
 
 nav {
     float: left;
-    background-color:#0D0C0D;
+    background-color:#020202;
     width: 100%;
     margin: 5px; 
+    line-height: 5px;
+    margin-bottom: 25px;
 }
 
 ul.nav {
-	list-style-type: none;
+	list-style: none;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
+
 li.nav {
 	Float: left;
 }
 li a.nav {
 	display: block;
-padding: 8px;
+padding: 13px;
 background-color:#020202;
 }
 
@@ -69,7 +80,7 @@ a:hover {
     border-radius: 10px;
     margin: 20px;
     width: calc(60% - 70px);
-    min-height: 450px;
+    min-height: 600px;
 }
 
 .clearfix {
@@ -86,12 +97,13 @@ aside {
     border-radius: 10px;
     margin: 20px;
     width: calc(40% - 70px);
-    min-height: 450px;
+    min-height: 600px;
 }
 
 #contenedor {
     width: 90%;
-    margin: 0px auto;
+    margin: 5px auto;
+    border-color: #ffffff;
     
 }
 
@@ -112,3 +124,4 @@ aside {
     top: 5px;
     z-index: 1;
 }
+
